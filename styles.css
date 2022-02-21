@@ -1,0 +1,63 @@
+* {
+    box-sizing: border-box;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: white;
+    background-color: rgb(17, 17, 128);
+    border: 2px solid #345684;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+section {
+    text-align: center;
+    background-color: white;
+    color: rgb(17, 17, 128);
+    border: 2px solid white;
+    box-shadow: 3px 3px 3px rgb(129, 129, 148);
+    border-radius: 10px;
+    margin-bottom: 20px;
+    
+}
+
+section h2 {
+    margin-top: 20px;
+    border-bottom: 2px solid #345684;
+}
+
+section p {
+    padding: 10px;
+    color: aliceblue;
+    background-color: rgb(17, 17, 128);
+    border: 0px solid #345684;
+    border-radius: 10px;
+
+}
+
+section a {
+    color: rgb(39, 221, 48);
+    font-weight: bold;
+}
+
+.button-div {
+    display: flex;
+    justify-content: center;
+}
+
+.button-div button {
+    margin: 10px;
+    padding: 10px;
+    color: white;
+    background-color: #345684;
+    border: 0px solid #345684;
+    border-radius: 15px;
+}
+
+.result {
+    background-color: rgb(17, 17, 128);
+    padding: 10px;
+    font-weight: bold;
+}
