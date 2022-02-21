@@ -6,6 +6,13 @@ const app = Vue.createApp({
         };
     },
 
+    computerd: {
+        fullname(){
+            this.name = event.target.value + '' + lastName;
+        }
+
+    },
+
     methods: {
         setName(event, lastName){
             this.name = event.target.value + '' + lastName;
@@ -16,6 +23,12 @@ const app = Vue.createApp({
         },
         reduce(num){
             this.counter = this.counter - num;
+        },
+        submitForm(){
+            alert('Submitted!');
+        },
+        resetInput(){
+            this.name = '';
         }
 
     }
